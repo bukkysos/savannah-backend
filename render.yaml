@@ -11,7 +11,3 @@ services:
       - key: PORT
         value: 80
     autoDeploy: true
-    disk:
-      name: data
-      mountPath: /data
-      sizeGB: 1
